@@ -1,7 +1,9 @@
+import SidebarContainer from '../components/SidebarContainer';
+
 function Groups() {
 	return (
-		<div>
-			<h1>Groups</h1>
+		<div className="flex h-screen w-screen bg-gray-100">
+			<SidebarContainer />
 		</div>
 	);
 }

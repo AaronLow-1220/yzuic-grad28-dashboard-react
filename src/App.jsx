@@ -1,11 +1,15 @@
 import React from 'react'
-import SidebarContainer from './components/SidebarContainer'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+import Groups from './pages/Groups'
 
 function App() {
   return (
-    <>
-      <SidebarContainer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/groups" element={<Groups />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

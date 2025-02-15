@@ -1,0 +1,8 @@
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar-item.active {
+    background-color: #f8f9fa;
+}
